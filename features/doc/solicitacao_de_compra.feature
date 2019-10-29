@@ -10,6 +10,7 @@ Funcionalidade: Buscar de carro para venda
 	  Dado que estou na tela inicial fazendo a solicitação pela marca desejada
       | Marca | Honda |
 
+  @smoke
   Esquema do Cenário: teste
     Quando hen escolho:
       | Modelo | City                                     |
@@ -23,6 +24,7 @@ Funcionalidade: Buscar de carro para venda
     | Friday         | TGIF   |
     | Sunday         | Nope   |
     | anything else! | Nope   |
+
 
 
   #cenário listagem de estoque feito com teste de api

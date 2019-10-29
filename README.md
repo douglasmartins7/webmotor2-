@@ -1,6 +1,15 @@
 ## Configurações necessárias
 
 
+Comando para execução
+
+    cucumber -p browser
+
+    browser = chrome
+    browser = firefox
+
+
+
 Precisa do chromedriver para rodar a automação com o browser chrome
 
  #Baixe ele pelo terminal
