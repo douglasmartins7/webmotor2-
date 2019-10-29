@@ -1,14 +1,14 @@
-Dado("que estou na tela inicial fazendo a solicitação pela marca desejada:") do |table|
+Dado("que estou na tela inicial fazendo a solicitação pela marca desejada") do |table|
+  data = table.rows_hash
+  visit $env
+end
+
+Quando("hen escolho:") do |table|
   # table is a Cucumber::MultilineArgument::DataTable
   pending # Write code here that turns the phrase above into concrete actions
 end
 
-Dado("escolho:") do |table|
-  # table is a Cucumber::MultilineArgument::DataTable
-  pending # Write code here that turns the phrase above into concrete actions
-end
-
-Dado("seleciono opçao de veiculo") do
+Quando("seleciono opçao de veiculo") do
   pending # Write code here that turns the phrase above into concrete actions
 end
 
